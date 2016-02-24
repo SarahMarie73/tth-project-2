@@ -1,0 +1,88 @@
+/*************************
+         GENERAL
+ ************************/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #FAFAFA;
+}
+
+header {
+    text-align: center;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+    color: #454545;
+}
+
+h4 {
+    color: #454545;
+    padding-bottom: 1em;
+}
+
+/*************************
+         PROFILE
+ ************************/
+
+.row-fluid {
+    text-align: center;
+}
+
+.profile-photo {
+    margin: 0 auto;
+}
+
+#profile {
+    padding: 1em;
+}
+
+#portfolio {
+    padding: 1em;
+    background-color: white;
+}
+
+#contact {
+display:block;
+float:none;
+clear:both;
+padding: 1em;
+border-bottom: 1px solid #E6E6E6;
+}
+
+ #title {
+    font-size: 1.25em;
+    line-height: .75em;
+ }
+
+/*************************
+    PORTFOLIO PICTURES
+ ************************/
+
+img {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 1em;
+}
+
+/*************************
+        FOOTER
+ ************************/
+
+.site-footer {
+    color: #454545;
+}
+
+.site-footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.site-footer a {
+    text-decoration: none;
+    color: #454545;
+}
