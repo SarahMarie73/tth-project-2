@@ -4,7 +4,9 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
-    background-color: #FAFAFA;
+    background: linear-gradient(#6600CC, #CC0099, #99FF99);
+    margin: 0;
+    padding: 0 0 100px 0;
 }
 
 header {
@@ -39,6 +41,7 @@ h4 {
 #portfolio {
     padding: 1em;
     background-color: white;
+    margin: 1em;
 }
 
 #contact {
@@ -70,15 +73,18 @@ img {
 
 .site-footer {
     color: #454545;
+    background-color: white;
+    width: 100%;
 }
 
 .site-footer ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    align-items: baseline;
-    margin: 0 auto;
-    padding: 0;
+    align-items: center;
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 
@@ -86,3 +92,25 @@ img {
     text-decoration: none;
     color: #454545;
 }
+
+/*************************
+      MEDIA QUERIES
+ ************************/
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

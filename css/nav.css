@@ -10,7 +10,6 @@
 
 .navbar ul li {
    display: block;
-   background-color: white;
    margin: 5px auto;
    padding: 10px 0;
 }
@@ -21,3 +20,33 @@
     text-decoration: none;
     color: #454545;
 }
+
+/*************************
+      MEDIA QUERIES
+ ************************/
+
+@media only screen and (min-width: 768px) {
+   .navbar ul li {
+      display: inline-flex;
+      padding: 0 1em;
+      margin-right: 20px;
+   }
+   
+   .navbar a {
+     justify-content: center;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
