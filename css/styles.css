@@ -26,29 +26,30 @@ h4 {
          PROFILE
  ************************/
 
-.row-fluid {
-    text-align: center;
-}
-
 .profile-photo {
+    display: inline-flex;
+    justify-content: center;
     margin: 0 auto;
 }
 
 #profile {
     padding: 1em;
+    text-align: center;
 }
 
 #portfolio {
+    text-align: center;
     padding: 1em;
     background-color: white;
     margin: 1em;
 }
 
 #contact {
-display: block;
-float: none;
-clear: both;
-padding: 1em;
+    text-align: center;
+    display: block;
+    float: none;
+    clear: both;
+    padding: 1em;
 }
 
  #title {
@@ -98,10 +99,53 @@ img {
     color: #454545;
 }
 
+
 /*************************
       MEDIA QUERIES
  ************************/
+ 
+ @media only screen and (max-width: 768px) {
+     .site-footer-2 {
+         display: none;
+     }
+ }
 
 @media only screen and (min-width: 768px) {
     
+     .site-footer {
+         display: none;
+     }
+    
+    .site-footer-2 {
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: white;
+    color: #454545;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;  
+}
+
+.site-footer-2 ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#name {
+    text-align: left;
+    margin: 0;
+}
+
+.site-footer-2 a {
+    list-style: none;
+    text-decoration: none;
+}
+
+     
 }
