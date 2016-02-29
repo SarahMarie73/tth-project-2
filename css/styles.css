@@ -22,6 +22,7 @@ h4 {
     padding-bottom: 1em;
 }
 
+
 /*************************
          PROFILE
  ************************/
@@ -112,7 +113,7 @@ img {
 
 @media only screen and (min-width: 768px) {
     
-     .site-footer {
+    .site-footer {
          display: none;
      }
     
@@ -124,28 +125,22 @@ img {
     color: #454545;
     width: 100%;
     height: 60px;
-    z-index: 1000;  
+    z-index: 1000; 
 }
 
 .site-footer-2 ul {
     display: flex;
     list-style: none;
+    text-decoration: none;
     justify-content: flex-end;
     align-items: center;
     margin: 0;
-    padding-left: 1em;
-    padding-right: 1em;
 }
 
-#name {
-    text-align: left;
-    margin: 0;
+.site-footer-2 p {
+    display: flex;
+    justify-content: flex-start;
 }
 
-.site-footer-2 a {
-    list-style: none;
-    text-decoration: none;
-}
 
-     
 }
