@@ -23,38 +23,57 @@ h4 {
 }
 
 /*************************
+         NAVIGATION
+ ************************/
+
+.navbar ul {
+ list-style: none;
+ margin: 0 10px;
+ padding: 0;
+}
+
+.navbar ul li {
+   display: block;
+   margin: 5px auto;
+   padding: 10px 0;
+}
+
+.navbar a {
+    font-weight: 800;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+/*************************
          PROFILE
  ************************/
 
-.row-fluid {
-    text-align: center;
-}
-
 .profile-photo {
-    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
 }
 
 #profile {
     padding: 1em;
+    text-align: center;
 }
 
 #portfolio {
+    text-align: center;
     padding: 1em;
     background-color: white;
     margin: 1em;
 }
 
 #contact {
-display: block;
-float: none;
-clear: both;
-padding: 1em;
+    text-align: center;
+    display: block;
+    float: none;
+    clear: both;
+    padding: 1em;
 }
 
- #title {
-    font-size: 1.25em;
-    line-height: .75em;
- }
 
 /*************************
     PORTFOLIO PICTURES
@@ -71,7 +90,8 @@ img {
  ************************/
 
 /***Sticky Footer***/
-.site-footer {
+.site-footer,
+.site-footer-2 {
     position: fixed;
     bottom: 0;
     margin: 0 auto;
@@ -98,10 +118,28 @@ img {
     color: #454545;
 }
 
-/*************************
-      MEDIA QUERIES
- ************************/
+  #name {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+ .site-footer-2 ul li {
+    display: inline;
+    float: right;
+    margin-right: 5%;
+    text-align: right;
+    list-style: none;
+  }
+  
+ .site-footer-2 a {
+     text-decoration: none;
+ }
+  
 
+
+<<<<<<< HEAD
 @media only screen and (min-width: 768px) {
     img {
       max-width: 200px;
@@ -109,3 +147,5 @@ img {
       clear: both;
     }
 }
+=======
+>>>>>>> 005a5d0d5b85fa16aceba136321d58b1d28817ab
