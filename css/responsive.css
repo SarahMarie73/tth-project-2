@@ -1,0 +1,56 @@
+/*************************
+      MEDIA QUERIES
+ ************************/
+
+@media screen and (min-width: 768px) {
+   .navbar ul li {
+      display: inline-flex;
+      padding: 0 1em;
+      margin-right: 20px;
+   }
+   
+   .navbar a {
+     justify-content: center;
+   }
+
+     .site-footer-2 {
+         display: none;
+     }
+    
+    .site-footer {
+        display: none;
+    }
+    
+    .portfolio {
+        max-width: 45%;
+    }
+    
+    .portfolio:nth-child(even) {
+        float: right;
+        clear: both;
+    }
+    
+    .intro {
+        max-width: 50%;
+    }
+    
+    .intro:nth-child(even) {
+        float: left;
+        clear: both;
+    }
+    
+    .clearfix {
+        overflow: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
