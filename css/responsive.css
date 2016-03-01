@@ -1,6 +1,12 @@
 /*************************
       MEDIA QUERIES
  ************************/
+ 
+ @media screen and (max-width: 768px) {
+      .site-footer-2 {
+         display: none;
+     }
+ }
 
 @media screen and (min-width: 768px) {
    .navbar ul li {
@@ -13,14 +19,6 @@
      justify-content: center;
    }
 
-     .site-footer-2 {
-         display: none;
-     }
-    
-    .site-footer {
-        display: none;
-    }
-    
     .portfolio {
         max-width: 45%;
     }
@@ -41,6 +39,10 @@
     
     .clearfix {
         overflow: auto;
+    }
+    
+     .site-footer {
+        display: none;
     }
 }
 

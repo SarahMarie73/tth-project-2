@@ -118,20 +118,24 @@ img {
     color: #454545;
 }
 
-.site-footer-2 ul {
-    display: flex;
+  #name {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+ .site-footer-2 ul li {
+    display: inline;
+    float: right;
+    margin-right: 5%;
+    text-align: right;
     list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding-left: 1em;
-    padding-right: 1em;
-}
+  }
+  
+ .site-footer-2 a {
+     text-decoration: none;
+ }
+  
 
-.site-footer-2 a {
-    text-decoration: none;
-    color: #454545;
-}
-
- 
 
