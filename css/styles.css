@@ -1,10 +1,20 @@
 /*************************
          GENERAL
  ************************/
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
 
 body {
     font-family: 'PT Sans', sans-serif;
     background: linear-gradient(#6600CC, #CC0099, #99FF99);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     padding: 0 0 100px 0;
 }
@@ -21,6 +31,18 @@ h4 {
     color: #454545;
     padding-bottom: 1em;
 }
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+
 
 /*************************
          NAVIGATION
@@ -72,6 +94,7 @@ h4 {
     float: none;
     clear: both;
     padding: 1em;
+    margin-bottom: 100px;
 }
 
 
@@ -88,54 +111,29 @@ img {
 /*************************
         FOOTER
  ************************/
+.site-footer, .page-wrap:after {
+    height: 50px;
+}
 
-/***Sticky Footer***/
 .site-footer,
 .site-footer-2 {
-    position: fixed;
-    bottom: 0;
-    margin: 0 auto;
     background-color: white;
-    color: #454545;
-    width: 100%;
-    height: 60px;
-    z-index: 1000;  
 }
 
-.site-footer ul {
-    display: flex;
+.site-footer ul,
+.site-footer-2 ul {
+    display: table-row;
     list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding-left: 1em;
-    padding-right: 1em;
 }
 
+.site-footer ul li,
+.site-footer-2 ul li {
+    display: table-cell;
+    list-style-type: none;
+}
 
-.site-footer a {
+.site-footer a,
+.site-footer-2 a {
+    display: table-cell;
     text-decoration: none;
-    color: #454545;
 }
-
-  #name {
-    float: left;
-    margin-left: 5%;
-    text-align: left;
-    width: 45%;
-  }
-  
- .site-footer-2 ul li {
-    display: inline;
-    float: right;
-    margin-right: 5%;
-    text-align: right;
-    list-style: none;
-  }
-  
- .site-footer-2 a {
-     text-decoration: none;
- }
-  
-
-
