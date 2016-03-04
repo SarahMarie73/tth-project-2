@@ -115,6 +115,18 @@ img {
     height: 50px;
 }
 
+.myname {
+    float: left;
+    text-align: right;
+    width: 35%;
+}
+
+.navtotop {
+    float: right;
+    text-align: left;
+    width: 35%;
+}
+
 .site-footer,
 .site-footer-2 {
     background-color: white;
@@ -127,6 +139,7 @@ img {
 .site-footer a,
 .site-footer-2 a {
     text-decoration: none;
+  
 }
   
 
