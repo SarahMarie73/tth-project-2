@@ -29,7 +29,8 @@
     }
     
     .intro {
-        max-width: 50%;
+        max-width: 60%;
+        padding-top: 1em;
     }
     
     .intro:nth-child(even) {
@@ -46,11 +47,18 @@
     }
 }
 
-@media and screen (min-width: 1024px) {
-
+@media screen and (min-width: 1024px) {
+    .navbar ul li {
+      display: inline-flex;
+      padding: 0 1em;
+      margin-right: 20px;
+   }
+   
+   .navbar a {
+     justify-content: flex-end;
+   }
+    
 }
-
-
 
 
 

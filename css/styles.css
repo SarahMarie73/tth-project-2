@@ -123,37 +123,14 @@ img {
     height: 60px;
     z-index: 1000;
 }
-
-.site-footer ul,
-.site-footer-2 ul {
-    display: table-row;
-    list-style: none;
-}
-
-.site-footer ul li,
-.site-footer-2 ul li {
-    display: table-cell;
-    list-style-type: none;
-}
-
+    
 .site-footer a,
 .site-footer-2 a {
-    display: table-cell;
     text-decoration: none;
 }
   
- .site-footer-2 a {
-     text-decoration: none;
- }
-  
 
 
 
-@media only screen and (min-width: 768px) {
-    img {
-      max-width: 200px;
-      float: left;
-      clear: both;
-    }
-}
+
 
