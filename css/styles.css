@@ -111,9 +111,15 @@ img {
 /*************************
         FOOTER
  ************************/
-.site-footer, .page-wrap:after {
-    height: 50px;
+/**.page-wrap {
+    min-height: 100%;
+    margin-bottom: -60px;
 }
+
+site-footer, .push {
+  height: 60px;  
+}
+
 
 .myname {
     float: left;
@@ -125,10 +131,11 @@ img {
     float: right;
     text-align: left;
     width: 35%;
-}
+}**/
 
 .site-footer,
 .site-footer-2 {
+    display: inline-block;
     background-color: white;
     color: #454545;
     width: 100%;
@@ -139,9 +146,41 @@ img {
 .site-footer a,
 .site-footer-2 a {
     text-decoration: none;
-  
+    display: inline;
 }
-  
+
+.footer-container-block {
+	display: block;
+	float: left;
+	width: 45%;
+	height: 60px;
+	text-align: left;
+	padding-left: 20px;
+	line-height: 60px;
+}
+
+.footer-container-block-2 {
+	display: block;
+	float: right;
+	width: 45%;
+	height: 60px;
+	text-align: right;
+	padding-right: 15px;
+	line-height: 60px;
+}
+
+.site-footer-2 ul li {
+      display: inline-block;
+      float: right;
+      margin-left: 10px;
+      padding: 0;
+   }
+   
+   .site-footer-2 a {
+     justify-content: center;
+   }
+
+    
 
 
 
